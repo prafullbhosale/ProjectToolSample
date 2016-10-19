@@ -18,17 +18,21 @@
       <Version>1.0.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NET.Sdk">
-      <Version>1.0.0-alpha-20161010-1</Version>
+      <Version>1.0.0-*</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+	<PackageReference Include="dotnet-inside-man">
+      <Version>1.0.0-*</Version>
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-	<DotNetCliToolsReference Include="ProjectToolSample">
-		<Version>1.0.0-*</Version>
-	</DotNetCliToolsReference >
-    <DotNetCliToolsReference Include="dotnet-project-tool2-sample">
-		<Version>1.0.0-*</Version>
-	</DotNetCliToolsReference >
+	<DotNetCliToolReference Include="ProjectToolSample">
+		<Version>1.0.0-b</Version>
+	</DotNetCliToolReference >
+    <DotNetCliToolReference Include="dotnet-project-tool2-sample">
+		<Version>1.0.0-a</Version>
+	</DotNetCliToolReference >
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
