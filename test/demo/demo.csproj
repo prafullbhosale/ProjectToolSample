@@ -23,7 +23,6 @@
     </PackageReference>
 	<PackageReference Include="dotnet-inside-man">
       <Version>1.0.0-*</Version>
-      <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
